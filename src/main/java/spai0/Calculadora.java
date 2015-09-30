@@ -24,5 +24,9 @@ public class Calculadora {
     public int multiplicar () {
         return this.x * this.y;
     }
+    
+    public int multiplicar (int x, int y) {
+        return x * y;
+    }
 
 }
